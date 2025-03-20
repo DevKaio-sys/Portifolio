@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik+Vinyl&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+#title{
+    font-size: 50px;
+    color: #fff;
+    text-align: center;
+    margin-top: 50px;
+    font-weight: bold;
+}
+
+body {
+    background-image: url('img/ai-generated-8061342_1280.jpg'); /* Caminho da imagem */
+    background-size: cover; /* Ajusta a imagem para cobrir toda a tela */
+    background-position: center; /* Centraliza a imagem */
+    background-attachment: fixed; /* Faz o efeito parallax */
+    background-repeat: no-repeat; /* Impede repetição */
+}
+
+
+
+    
+
+#perfil {
+    position: absolute; /* Permite posicionamento livre */
+    top: 20px; /* Distância do topo */
+    left: 20px; /* Distância da esquerda */
+}
+
+#perfil img {
+    width: 150px; /* Aumenta o tamanho */
+    height: 150px;
+    border-radius: 35px; /* Mantém a imagem redonda */
+    border: 3px solid white; /* Borda branca */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Sombra leve */
+}
+
+
+    
+
+#navbar{ 
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#btn{
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: 2px solid #bfd9e4;
+    cursor: pointer;
+}
+#container {
+    margin-top: 80px;
+    max-width: 800px; /* Define uma largura máxima para melhor leitura */
+    margin: 0 auto; /* Centraliza na página */
+    padding: 20px; /* Adiciona um espaçamento interno */
+    text-align: center;
+    background-color: #5599f3;
+    border-radius: 8px; /* Deixa os cantos arredondados */
+    border: 2px solid #ccc; /* Define a borda */
+    margin-bottom: 50px; /* Adiciona espaço abaixo */
+    margin-top: 90px;
+    font-weight: bold;
+    
+    
+}
+#txt01{
+    font-size: 35px; /* Deixa o título mais destacado */
+    font-weight: bold; /* Deixa em negrito */
+    margin-bottom: 20px; /* Espaço abaixo do título */
+}
+#p01{
+font-size: 18px; /* Melhora a legibilidade do texto */
+line-height: 1.6; /* Aumenta o espaçamento entre as linhas */
+text-align: justify; /* Deixa o texto alinhado certinho */
+color: rgb(214, 235, 238);
+}
+
+
+#txt02{
+    margin-bottom: 10px;
+
+}
+#tecno {
+    margin-top: 40px;
+    font-size: 20px;
+    padding: 20px; /* Adicionando um pouco mais de padding para espaçar o conteúdo */
+    text-align: center;
+    border: 2px solid #ccc; /* Ajustando o border para ser mais visível */
+    border-radius: 8px; /* Canto arredondado */
+    background-color: #679ee6;
+    max-width: 800px; /* Definindo a largura máxima */
+    margin-left: auto; /* Centraliza o container horizontalmente */
+    margin-right: auto; /* Centraliza o container horizontalmente */
+    
+}
+#tecno01{ 
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+#contato {
+    max-width: 800px; /* Largura máxima do conteúdo */
+    margin: 50px auto; /* Centraliza o footer na página com um espaço superior */
+    padding: 20px; /* Adiciona um padding interno */
+    text-align: center; /* Centraliza todo o conteúdo dentro do footer */
+    background-color: #679ee6; /* Cor de fundo do footer (opcional) */
+    border-radius: 8px; /* Deixa os cantos arredondados */
+    border: 2px solid #ccc /* Deixa os cantos arredondados */
+     
+}
+
+#contato h3 {
+    font-size: 35px; /* Tamanho do título */
+    margin-bottom: 20px; /* Espaço entre o título e o texto */
+    font-weight: bold; /* Deixa o título em negrito */
+}
+
+#contato p {
+    font-size: 18px; /* Tamanho da fonte do parágrafo */
+    line-height: 1.6; /* Deixa o texto mais espaçado entre as linhas */
+    margin-bottom: 20px; /* Espaço entre o texto e os links */
+    font-weight: bold;
+    color: rgb(214, 235, 238); /* Cor do texto */
+}
+
+#contato a {
+    font-size: 24px; /* Tamanho dos ícones */
+    margin: 0 15px; /* Espaço entre os ícones */
+    color: rgb(0, 0, 0); /* Cor dos ícones */
+    text-decoration: none; /* Remove o sublinhado dos links */
+}
+ /* Muda a cor dos ícones quando passar o mouse */
+
+#css{
+    color: #0073b1; /* Muda a cor dos ícones quando passar o mouse */
+}
+#css:hover{
+    scale: 1.5;
+    transition: 0.5s;
+}
+
+#html{
+    color: #e34c26; /* Muda a cor dos ícones quando passar o mouse */
+}
+#html:hover{
+    scale: 1.5;
+    transition: 0.5s;
+}
+#js{
+    color: #f0db4f; /* Muda a cor dos ícones quando passar o mouse */
+}
+#js:hover{
+    scale: 1.5;
+    transition: 0.5s;
+}
+#java{
+    color: #007396; /* Muda a cor dos ícones quando passar o mouse */
+}
+#java:hover{
+    scale: 1.5;
+    transition: 0.5s;
+}
+
+#gmail{
+    color: #d14836; /* Muda a cor dos ícones quando passar o mouse */
+}
+#gmail:hover{
+    scale: 1.5;
+    transition: 0.5s;
+}
+#linkedin{
+    color: #0077b5; /* Muda a cor dos ícones quando passar o mouse */
+}
+#linkedin:hover{
+    scale: 1.5;
+    transition: 0.5s;
+}
+#whatsapp{
+    color: #25d366; /* Muda a cor dos ícones quando passar o mouse */
+}
+#whatsapp:hover{
+    scale: 1.5;
+    transition: 0.5s;
+}
